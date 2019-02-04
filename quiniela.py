@@ -28,6 +28,7 @@ for llave in rams:
 print()
 print(diff)
 print()
+print("Ganador:")
 print(min(diff.items(), key=operator.itemgetter(1))[0])
 print()
 
